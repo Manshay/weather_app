@@ -70,6 +70,6 @@ WeCast uses the OpenWeatherMap API to fetch weather data. You need to get an API
 2. Add your API key to the `lib/weather_api.dart` file:
    
    ```bash
-   const String weatherAPIKey = 'API_KEY';
+   const weatherAPIKey = 'API_KEY';
 
 # Thank You!
