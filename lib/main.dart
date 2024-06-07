@@ -20,7 +20,11 @@ class WeatherApp extends StatelessWidget {
             themeMode: themeProvider.themeMode,
             theme: ThemeData.light(useMaterial3: true),
             darkTheme: ThemeData.dark(useMaterial3: true),
-            home: Screen(),
+            home: AnimatedTheme(
+              duration: Duration(milliseconds: 50),
+              data: themeProvider.themeMode == ThemeMode.light ? ThemeData.light() : ThemeData.dark(),
+              child: Screen(),
+            )
           );
         },
       ),
