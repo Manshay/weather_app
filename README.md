@@ -10,11 +10,9 @@ WeCast is a beautiful weather application built with Flutter and Dart. It provid
 - **Theme Switching:** Toggle between light and dark themes.
 - **Add Multiple Cities:** Add and view weather information for multiple cities.
 
-## Screenshots
+## App
 
-![image](https://github.com/Manshay/weather_app/assets/81351053/a5f28031-d135-41cd-870e-092e8c0fcd3e)
-
-
+[App.webm](https://github.com/Manshay/weather_app/assets/81351053/563d2ba8-c37c-4f5b-9d13-9ddba67a9490)
 
 ## Getting Started
 
@@ -48,3 +46,30 @@ WeCast is a beautiful weather application built with Flutter and Dart. It provid
    ```bash
    flutter run
 
+## Usage
+
+1. Select a City:
+   
+   By default, the app shows the weather for New Delhi. You can add new cities by clicking the add button in the top right corner.
+
+2. Switch Themes:
+
+   Use the theme switch button in the top left corner to toggle between light and dark themes.
+
+3. Refresh Weather Data:
+
+   Click the refresh button in the top right corner to update the weather information.
+
+## Configuration
+
+### API Key
+
+WeCast uses the OpenWeatherMap API to fetch weather data. You need to get an API key from OpenWeatherMap and add it to your project.
+
+1. Sign up and get your API from OpenWeatherMap
+2. Add your API key to the `lib/weather_api.dart` file:
+   
+   ```bash
+   const String weatherAPIKey = 'API_KEY';
+
+# Thank You!
