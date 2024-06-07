@@ -28,7 +28,7 @@ WeCast is a beautiful weather application built with Flutter and Dart. It provid
 1. **Clone the repository:**
    
    ```bash
-   git clone https://github.com/yourusername/weather-app.git
+   git clone https://github.com/Manshay/weather-app.git
    cd weather-app
 
 3. Check that everything has been installed
