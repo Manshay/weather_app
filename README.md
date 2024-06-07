@@ -10,8 +10,9 @@ WeCast is a beautiful weather application built with Flutter and Dart. It provid
 - **Theme Switching:** Toggle between light and dark themes.
 - **Add Multiple Cities:** Add and view weather information for multiple cities.
 
-## App Demonstration
+## Screenshots
 
+![image](https://github.com/Manshay/weather_app/assets/81351053/a5f28031-d135-41cd-870e-092e8c0fcd3e)
 
 
 
